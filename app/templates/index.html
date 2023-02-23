@@ -1,0 +1,13 @@
+<title>Image classifier</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+<h1>Is your image a Bed/Chair/Sofa?</h1>
+<h2>I will find out for you!</h2>
+<div class="row">
+    <form action="/predict" method="post" enctype="multipart/form-data">
+         <input input type="file" class="form-control" id="myFile" name="filename" required="required" /><br> 
+         <button type="submit" class="btn btn-info">Predict</button>
+    </form>
+</div>
+
+<h3>Prediction: {{ prediction }} </h3>
+
