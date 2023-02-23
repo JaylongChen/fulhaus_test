@@ -4,17 +4,17 @@ The project involves building a CNN model for a dataset of three furniture class
 
 ## Installation
 
-Need edit
+Please install all the dependencies in requirement.txt 
 
-```bash
-pip install foobar
+## Run
+
+```shell
+cd app
+python app.py
 ```
 
-## Usage
-
-```python
-
-```
+## Comments from developer
+Should you run into any issues with running the app, feel free to reach out to jaylongchen@gmail.com for any questions or a live demo request.
 
 ## Contributing
 
